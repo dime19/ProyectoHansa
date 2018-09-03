@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "17347864987",
+    "firebase_url": "https://proyectohansa.firebaseio.com",
+    "project_id": "proyectohansa",
+    "storage_bucket": "proyectohansa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17347864987:android:4b4108726d84191a",
+        "android_client_info": {
+          "package_name": "com.example.dyv.proyectohansa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17347864987-cjo3vbkcbi00b74393k81lotqgpk3fhc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRmPNopyoITPaxqNyNghRMAX666WhB0VM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

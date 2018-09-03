@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/dato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intrudusca su Nombre:"
+        />
+    <TextView
+        android:id="@+id/texto_dato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dato"
+        />
+    <TextView
+        android:id="@+id/img_dato"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/texto_dato"/>
+    <TextView
+        android:id="@+id/latitud_dato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intrudusca su Nombre:"
+        />
+    <TextView
+        android:id="@+id/longitud_dato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intrudusca su Nombre:"
+        />
+
+    <Button
+        android:id="@+id/btnsubir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="subir"
+        android:layout_below="@id/img_dato"
+        />
+</RelativeLayout>
